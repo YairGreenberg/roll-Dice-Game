@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dice Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="target-display">The max score: 100</div>
+        <div class="game-board">
+            <div class="player-area" id="p-0">
+                <h1>Player 1</h1>
+                <div class="score-label">total:</div>
+                <div class="total-score" id="total-0">0</div>
+                <div class="current-box">
+                    <span>Current Score:</span>
+                    <span id="curr-0">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="player-area" id="p-1">
+        <h1>Player 2</h1>
+        <div class="score-label">total:</div>
+        <div class="total-score" id="total-1">0</div>
+        <div class="current-box">
+            <span>Current Score:</span>
+            <span id="curr-1">0</span>
+        </div>
+    </div>
+    <div class="dice-wrapper">
+            <img src="img\one.png" id="d1" class="dice-img">
+            <img src="img\two.png" id="d2" class="dice-img">
+        </div>
+        <div class="actions">
+            <button id="btn-new">NEW GAME</button>
+            <button id="btn-roll">ROLL DICE (5)</button>
+            <button id="btn-hold">HOLD</button>
+        </div>
+</body>
+
+</html>
